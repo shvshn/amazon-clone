@@ -1,3 +1,6 @@
+import { cart } from "../data/cart.js";
+import { products } from "../data/products.js";
+
 let productHTML = "";
 
 products.forEach((product) => {
@@ -46,7 +49,7 @@ products.forEach((product) => {
           </div>
 
           <button class="add-to-cart-button button-primary js-add-to-cart-button"
-          data-product-Id="${product.id}">
+          data-product-id="${product.id}">
             Add to Cart
           </button>
         </div>
