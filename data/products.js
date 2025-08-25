@@ -470,4 +470,3 @@ export const products = [
     keywords: ["sweaters", "hoodies", "apparel", "mens"],
   },
 ];
-
